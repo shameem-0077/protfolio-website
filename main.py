@@ -60,6 +60,8 @@ class Projects(db.Model):
 # db.session.add(admin)
 # db.session.commit()
 
+
+
 def admin_only(f):
     @wraps(f)
     def decorated_function(*args, **kwargs):
