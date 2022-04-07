@@ -426,50 +426,39 @@ textarea:hover {
     padding-top: 50px;
 }
 
-@media (min-width: 414px) {
+@media screen and (max-width: 1028px) {
   #title {
-    font-size: 20px;
-  }
-
-  .main-page .h {
     font-size: 50px;
   }
 
+  .titles {
+    font-size: 80px;
+  }
+
+  .main-page-sec1 .h {
+    font-size: 170px;
+  }
+
   .frontpage-img {
-    left: 50px;
-    top: 30px;
-    width: 250px;
+    left: 30px;
+    top: -40px;
+    width: 700px;
+    margin: auto;
   }
 
   .main-page-sec1 {
-    margin-top: 100px;
-    width: 600px;
+    margin-top: 300px;
+    padding-bottom: 250px;
   }
 
   .main-page-sec2 {
-    width: 350px;
-    left: 610px;
-    bottom: 200;
-    padding-top: 15px;
-    padding-bottom: 50px;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 800px;
+    height: 800px;
   }
 
-  .main-sec {
-    width: 490px;
-  }
-
-  .about-row4 {
-    padding-left: 0;
-
-  }
-
-  .about-row3 {
-    padding-bottom: 30px;
-  }
-
-  .about-row5 {
-    padding: 0;
-  }
 
   .coding, .reading, .music {
     padding-left: 10px;
@@ -481,13 +470,18 @@ textarea:hover {
   }
 
   .about-description {
-    font-size: 15px;
+    font-size: 40px;
+    padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
   }
 
+  .about-title {
+    font-size: 60px;
+  }
+
   .contact-img {
-    width: 40%;
+    width: 400px;
   }
 
   .project-img {
@@ -516,36 +510,56 @@ textarea:hover {
   }
 
   .pi {
-    width: 600px;
+    width: 800px;
     margin: auto;
+  }
+
+  .coding {
+    height: 700px;
+    width: 800px;
   }
 
   .reading {
-    left: 300px;;
-    top: -500px;;
+    height: 700px;
+    width: 800px;
+    left: 0;
+    top: 0;
   }
 
   .music {
+    height: 700px;
+    width: 800px;
     left: 0;
-    top: -500px;
+    top: 0;
   }
 
   .movies {
-    left: 300px;
-    top: -1000px;
+    height: 700px;
+    width: 800px;
+    left: 0;
+    top: 0;
   }
 
   .footer-sec {
-    width: 300px;
+    width: 700px;
+    top: 2500px;
+    font-size: 50px;
+  }
+
+  .icons {
+    font-size: 70px;
   }
 
   .about-cls {
-    height: 1300px;
+    position: relative;
+    top: 2500px;
+    height: 3600px;
   }
 
   .contact-row {
-    width: 300px;
+    width: 600px;
     margin: auto;
+    top: 2500px;
     padding-top: 15px;
     text-align: center;
     padding-bottom: 30px;
@@ -555,8 +569,8 @@ textarea:hover {
     height: 950px;
   }
 
-  .work {
-    height: 950px;
+  .topBefore {
+    width: 600px;
   }
 
 
@@ -569,7 +583,7 @@ textarea:hover {
     padding-top: 100px;
     margin-top: 10px;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     background: #1B1A17;
 
   }
@@ -581,8 +595,8 @@ textarea:hover {
   .about-me {
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 18px;
-    line-height: 35px;
+    font-size: 40px;
+    line-height: 80px;
 
   }
 
@@ -590,8 +604,16 @@ textarea:hover {
     height: 1100px;
   }
 
+  .navbar-brand {
+    font-size: 60px;
+  }
+
+  .navbar-toggler {
+    font-size: 70px;
+  }
+
   .marquee-sec {
-    bottom: 300px;
+    bottom: 0;
   }
 
 
