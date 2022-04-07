@@ -49,16 +49,16 @@ class Projects(db.Model):
 
 # db.create_all()
 
-# hash_password = generate_password_hash("s8h0a8m6e0e0m5", method='pbkdf2:sha256', salt_length=8)
+hash_password = generate_password_hash("s8h0a8m6e0e0m5", method='pbkdf2:sha256', salt_length=8)
 
-# admin = User(
-#     username="Shameem",
-#     email="shameemoff52@gmail.com",
-#     password=hash_password
-# )
-#
-# db.session.add(admin)
-# db.session.commit()
+admin = User(
+    username="Shameem",
+    email="shameemoff52@gmail.com",
+    password=hash_password
+)
+
+db.session.add(admin)
+db.session.commit()
 
 def admin_only(f):
     @wraps(f)
