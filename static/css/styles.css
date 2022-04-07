@@ -40,6 +40,7 @@ body {
 }
 
 .marquee-sec {
+    position: relative;
     margin-bottom: 30px;
 }
 
@@ -425,7 +426,7 @@ textarea:hover {
     padding-top: 50px;
 }
 
-@media (max-width: 1028px) {
+@media (min-width: 414px) {
   #title {
     font-size: 20px;
   }
@@ -435,17 +436,20 @@ textarea:hover {
   }
 
   .frontpage-img {
-    left: 100px;
-    top: 50px;
+    left: 50px;
+    top: 30px;
+    width: 250px;
   }
 
   .main-page-sec1 {
     margin-top: 100px;
+    width: 600px;
   }
 
   .main-page-sec2 {
-    left: 0;
-    bottom: 0;
+    width: 350px;
+    left: 610px;
+    bottom: 200;
     padding-top: 15px;
     padding-bottom: 50px;
   }
@@ -512,14 +516,23 @@ textarea:hover {
   }
 
   .pi {
-    width: 300px;
+    width: 600px;
     margin: auto;
   }
 
-  .reading, .music, .movies {
-    left: 0;
-    top: 0;
+  .reading {
+    left: 300px;;
+    top: -500px;;
+  }
 
+  .music {
+    left: 0;
+    top: -500px;
+  }
+
+  .movies {
+    left: 300px;
+    top: -1000px;
   }
 
   .footer-sec {
@@ -527,7 +540,7 @@ textarea:hover {
   }
 
   .about-cls {
-    height: 2350px;
+    height: 1300px;
   }
 
   .contact-row {
@@ -536,6 +549,14 @@ textarea:hover {
     padding-top: 15px;
     text-align: center;
     padding-bottom: 30px;
+  }
+
+  .contact-form {
+    height: 950px;
+  }
+
+  .work {
+    height: 950px;
   }
 
 
@@ -563,6 +584,14 @@ textarea:hover {
     font-size: 18px;
     line-height: 35px;
 
+  }
+
+  .container-fluid {
+    height: 1100px;
+  }
+
+  .marquee-sec {
+    bottom: 300px;
   }
 
 
