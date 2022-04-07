@@ -1,0 +1,16 @@
+{% include "header.html" %}
+
+  <div class="contact-form">
+        <header>Contact Me!</header>
+
+        <form id="form" action="{{ url_for('contact') }}" method="POST" class="topBefore">
+
+          <input id="name" name="name" type="text" placeholder="NAME">
+          <input id="email" name="email" type="text" placeholder="E-MAIL">
+          <textarea id="message"  type="text" name="message" placeholder="MESSAGE"></textarea>
+          <input id="submit-btn" type="submit" value="GO!">
+
+        </form>
+      </div>
+
+{% include "footer.html" %}

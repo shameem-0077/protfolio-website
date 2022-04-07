@@ -1,0 +1,31 @@
+{% include "header.html" %}
+
+    <div class="work">
+      <h1 class="title-project-page">My works</h1>
+      <ul class="project-list">
+          {% if projects|length == 0 %}
+          <li>
+              <img class="project-img" src="https://img.freepik.com/free-vector/flat-creativity-concept-illustration_52683-64279.jpg?t=st=1649321899~exp=1649322499~hmac=2b036bd0624aa482030c4e58a234cd27fa622f9298682bf012d5c3f632f6bec1&w=740" alt="img">
+              <h3>Working on it, Mate</h3>
+          </li>
+          {% endif %}
+          {% for project in projects %}
+          <li>
+              <img class="project-img" src="{{ project.img_url }}" alt="img">
+              <h3>{{ project.title }}</h3>
+              {% if current_user.id == 1 %}
+              <a href="{{ url_for('delete_project', project_id=project.id) }}">❌</a>
+              {% endif %}
+          </li>
+          {% endfor %}
+      </ul>
+    </div>
+    <hr>
+    {% if current_user.id == 1 %}
+    <div class="clearfix">
+        <a class="btn btn-primary float-right" href="{{url_for('add_new_project')}}">Add project</a>
+    </div>
+    {% endif %}
+
+
+{% include "footer.html" %}

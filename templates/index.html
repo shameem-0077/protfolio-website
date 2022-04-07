@@ -1,0 +1,83 @@
+{% include "header.html" %}
+
+      <div class="col-lg-6 main-page-sec1">
+        <h1 class="h">Hii,</h1>
+        <h1 class="h">I'm Shameem,</h1>
+        <h1 class="h">Web developer</h1>
+        <p>Web designer / Python expert</p>
+      </div>
+      <div class="col-lg-6 main-page-sec2">
+        <img class="frontpage-img" src="https://media.giphy.com/media/igyKe4QlvYnA1pMQoz/giphy.gif" alt="img-1">
+      </div>
+      <div class="marquee-sec">
+        <marquee behavior="scroll" direction="left" scrollamount="10">"Welcome my son, welcome to the Mechine"</marquee>
+        <marquee behavior="scroll" direction="right" scrollamount="13">Come As You Are</marquee>
+        <marquee behavior="scroll" direction="left" scrollamount="15">The Man Who Sold The World</marquee>
+        <marquee behavior="scroll" direction="right" scrollamount="18">Unstoppable</marquee>
+        <marquee behavior="scroll" direction="left" scrollamount="21">Rather Than Love,</marquee>
+        <marquee behavior="scroll" direction="right" scrollamount="23">Than Money,</marquee>
+        <marquee behavior="scroll" direction="left" scrollamount="25">Than Faith,</marquee>
+        <marquee behavior="scroll" direction="right" scrollamount="27">Than Fame, Than Fairness, Give Me Truth</marquee>
+        <marquee behavior="scroll" direction="left" scrollamount="29">Whatever It Takes!</marquee>
+        <marquee behavior="scroll" direction="right" scrollamount="32">Mr.Robot</marquee>
+        <marquee behavior="scroll" direction="left" scrollamount="35">F.Society</marquee>
+        <marquee behavior="scroll" direction="right" scrollamount="38">Imagining The Future Is A Kind Of Nostalgia</marquee>
+        <marquee behavior="scroll" direction="left" scrollamount="41">Luck Is For Suckers</marquee>
+        <marquee behavior="scroll" direction="right" scrollamount="45">I can't do this shit anymore</marquee>
+        <marquee behavior="scroll" direction="left" scrollamount="48">We live inside a Dream!!!</marquee>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section -->
+
+  <section class="about-cls" id="about">
+    <div>
+        <h1 class="titles">Me, Myself and I</h1>
+      </div>
+      <div>
+        <p class="about-me">
+          Hii, there!. My name is Shameem, from Kerala, India. Thank you for taking the time to visit. I specialize in simple,
+          effective, user-centric design solutions. Fill your senses with <a href="{{ url_for('project') }}">highlights of work</a>,
+          Read the juicy bits about me!, or find out why you should <a href="{{ url_for('contact') }}">hire me.</a>
+        </p>
+      </div>
+      <div class="pi">
+        <div class="pi-heading">
+          <h3 class="titles">Personal Interests</h3>
+        </div>
+        <div class="coding">
+          <img class="about-gif-1" src="https://img.freepik.com/free-vector/code-typing-concept-illustration_114360-3581.jpg?t=st=1649190311~exp=1649190911~hmac=1f70f43f143f3f0c4a5226256ab5dac910d150e3090651423f9b031c1d7db992&w=740" alt="coding">
+          <h3 class="about-title">Coding</h3>
+            <p class="about-description">
+              There is always a exception to catch, if you know the problem well. Thats why i love coding. Coding is Life and there is always a exception to catch!.
+            </p>
+        </div>
+        <div class="reading">
+          <img class="about-gif-2" src="https://img.freepik.com/free-vector/knowledge-concept-illustration_114360-3633.jpg?t=st=1649190474~exp=1649191074~hmac=004a5018c9dee89a033b70365ff528d97469383a3cff390afadeca3aa72f3032&w=740" alt="reading-gif">
+          <h3 class="about-title">Reading</h3>
+            <p class="about-description">Lorem ipsum is placeholder text commonly used in the graphic, print,
+              and publishing industries for previewing layouts and visual mockups.</p>
+        </div>
+        <div class="music">
+          <img class="about-gif-3" src="https://img.freepik.com/free-vector/cute-astronaut-playing-dj-electronic-music-with-headphone-cartoon-icon-illustration-science-technology-icon-concept_138676-2113.jpg?w=740" alt="music">
+          <a class="pi-links" href="{{ url_for('music') }}"><h3 class="about-title">Music</h3></a>
+          <p class="about-description">Lorem ipsum is placeholder text commonly used in the graphic, print,
+            and publishing industries for previewing layouts and visual mockups.</p>
+        </div>
+        <div class="movies">
+          <img class="about-gif-4" src="https://img.freepik.com/free-vector/cute-astronaut-with-popcorn-cartoon-vector-icon-illustration-science-food-icon_138676-1979.jpg?w=740" alt="">
+          <a class="pi-links" href="https://tvtime.com/r/1Bxqw"><h3 class="about-title">Movies/Series</h3></a>
+          <p class="about-description">Lorem ipsum is placeholder text commonly used in the graphic, print,
+            and publishing industries for previewing layouts and visual mockups.</p>
+        </div>
+      </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-row">
+      <a href="{{ url_for('contact') }}"><img class="contact-img" src="https://media.giphy.com/media/RpDh3gH9AMsaAoF1An/giphy.gif" alt=""></a>
+    </div>
+  </section>
+
+{% include "footer.html" %}

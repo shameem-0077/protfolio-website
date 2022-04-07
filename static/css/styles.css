@@ -1,0 +1,573 @@
+/* main-title */
+
+
+body {
+  background-color: #1B1A17;
+  color: white;
+}
+
+
+.container-fluid {
+  padding: 2% 2%;
+}
+
+.navbar-custom {
+  font-family: 'Ubuntu', sans-serif;
+  background: #1B1A17;
+}
+
+.frontpage-img {
+    position: relative;
+    left: 200px;
+    bottom: 110px;
+    margin: auto;
+    width: 50%;
+    opacity: 0.5;
+    border-radius: 40%;
+}
+
+.main-page-sec1 {
+    margin-top: 100px;
+}
+
+.main-page-sec2 {
+    position: relative;
+    left: 750px;
+    bottom: 350px;
+    height: 335px;
+    padding-top: 100px;
+    padding-bottom: 190px;
+}
+
+.marquee-sec {
+    margin-bottom: 30px;
+}
+
+
+.main-page-sec1 .h {
+  font-size: 80px;
+  font-family: 'Sacramento', cursive;
+  color: #E45826;
+}
+
+/* about section */
+
+.titles {
+  text-align: center;
+}
+
+.about-me {
+    font-size: 25px;
+    padding-top: 15px;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.about-gif-1, .about-gif-2, .about-gif-3, .about-gif-4 {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 45px;
+  margin-top: 15px;
+}
+
+
+
+.about-gif-1:hover {
+  content: url('https://img.freepik.com/free-vector/hand-drawn-web-developers-working_23-2148819605.jpg?t=st=1649193145~exp=1649193745~hmac=89372d2f2541272dfb5c8de9a48abe03e10ba3b26da911e94b6b92fdbc8b3529&w=740');
+}
+
+.about-gif-2:hover {
+  content: url("https://i.ibb.co/VHyn44w/1997563-2.png")
+}
+
+
+
+.about-gif-3:hover {
+  content: url("https://i.ibb.co/yfGDV63/lonely-day-1.jpg");
+}
+
+.about-gif-4:hover {
+  content: url("https://i.ibb.co/L8Kkw62/3061905-1.jpg");
+}
+
+
+.reading {
+  border-top: solid white;
+  border-bottom: solid white;
+  border-left: solid white;
+  text-align: center;
+  position: relative;
+  left: 300px;
+  bottom: 500px;
+  width: 300px;
+  height: 500px;
+}
+
+.coding {
+  border-left: solid white;
+  border-top: solid white;
+  border-bottom: solid white;
+  text-align: center;
+  position: relative;
+  width: 300px;
+  height: 500px;
+}
+
+.music {
+  border-top: solid white;
+  border-bottom: solid white;
+  border-left: solid white;
+  text-align: center;
+  position: relative;
+  width: 300px;
+  height: 500px;
+  left: 600px;
+  bottom: 1000px;
+}
+
+.pi-links {
+    color: white;
+}
+
+.pi-links:hover {
+    color: #E45826;
+    text-decoration: none;
+}
+
+.movies {
+  border-top: solid white;
+  border-bottom: solid white;
+  border-left: solid white;
+  border-right: solid white;
+  text-align: center;
+  position: relative;
+  width: 300px;
+  height: 500px;
+  left: 900px;
+  bottom: 1500px;
+}
+
+.pi {
+  margin-left: 160px;
+  margin-right: 160px;
+  padding-top: 50px;
+  height: 600px;
+  background-color: #1B1A17;
+  color: white;
+}
+
+.pi-heading {
+  position: relative;
+  bottom: 40px;
+}
+
+.about-description {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* section Contact */
+
+.contact-row {
+    position: relative;
+    bottom: 0;
+    width: 300px;
+    margin: auto;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contact-img {
+  width: 50%;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: white;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: white;
+}
+
+input::placeholder, textarea::placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea::focus:placeholder {
+  color: white;
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: white;
+}
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+  color: black;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+  color: black;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+  color: black;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+  color: black;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: black;
+  font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: black;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: black;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+  color: black;
+}
+
+.contact-row {
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+header {
+  position: relative;
+  margin: 100px 0 25px 0;
+  font-size: 2.3em;
+  text-align: center;
+  letter-spacing: 7px;
+}
+
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+
+  background: transparent;
+  outline: none;
+  color: black;
+
+  border: solid 1px white;
+  border-bottom: none;
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: white;
+  color: black;
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+
+  background: transparent;
+  outline: none;
+
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+
+  border: solid 1px white;
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  background: white;
+  color: black;
+}
+
+#submit-btn {
+  width: 470px;
+
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  color: white;
+
+  outline:none;
+  cursor: pointer;
+
+  border: solid 1px white;
+  border-top: none;
+}
+
+#submit:hover {
+  background: white;
+  color: black;
+}
+
+/* footer section */
+
+.footer-sec {
+    margin: auto;
+    width: 500px;
+    position: relative;
+    bottom: 0;
+}
+
+.icons {
+  text-align: center;
+  font-size: 30px;
+  color: #F0A500;
+}
+
+.icon-link {
+    color: #F0A500;
+}
+
+.fb {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.copy-right {
+  padding-top: 10px;
+  text-align: center;
+  color: #F0A500;
+}
+
+/* projects */
+
+.work {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.title-project-page {
+  padding-bottom: 20px;
+}
+
+.project-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+
+.project-img {
+    width: 550px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.login-row {
+    padding-top: 200px;
+
+}
+
+.music-box {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.music-h {
+    text-align: center;
+}
+
+.music-div {
+    padding-top: 50px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    font-size: 20px;
+  }
+
+  .main-page .h {
+    font-size: 50px;
+  }
+
+  .frontpage-img {
+    left: 100px;
+    top: 50px;
+  }
+
+  .main-page-sec1 {
+    margin-top: 100px;
+  }
+
+  .main-page-sec2 {
+    left: 0;
+    bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 50px;
+  }
+
+  .main-sec {
+    width: 490px;
+  }
+
+  .about-row4 {
+    padding-left: 0;
+
+  }
+
+  .about-row3 {
+    padding-bottom: 30px;
+  }
+
+  .about-row5 {
+    padding: 0;
+  }
+
+  .coding, .reading, .music {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .about-reading-gif {
+    margin-right: 50px;
+  }
+
+  .about-description {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .contact-img {
+    width: 40%;
+  }
+
+  .project-img {
+    width: 400px;
+  }
+
+  .project-list {
+    text-align: center;
+  }
+
+  .make-project-form {
+    padding-top: 100px;
+    width: 300px;
+  }
+
+  #submit {
+    width: 100px;
+  }
+
+  .project-col {
+    width:200px;
+  }
+
+  .music-box {
+    padding-top: 70px;
+  }
+
+  .pi {
+    width: 300px;
+    margin: auto;
+  }
+
+  .reading, .music, .movies {
+    left: 0;
+    top: 0;
+
+  }
+
+  .footer-sec {
+    width: 300px;
+  }
+
+  .about-cls {
+    height: 2350px;
+  }
+
+  .contact-row {
+    width: 300px;
+    margin: auto;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+
+  .reading, .music, .coding {
+    border-right: solid white;
+  }
+
+  #navbarContent {
+    height: 650px;
+    padding-top: 100px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    background: #1B1A17;
+
+  }
+
+  .navbar-custom {
+    background: #1B1A17;
+  }
+
+  .about-me {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    line-height: 35px;
+
+  }
+
+
+
+
+
+
+}
