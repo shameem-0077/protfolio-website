@@ -47,7 +47,7 @@ class Projects(db.Model):
     title = db.Column(db.String, nullable=False)
     img_url = db.Column(db.String, nullable=False)
 
-db.create_all()
+# db.create_all()
 
 # hash_password = generate_password_hash("s8h0a8m6e0e0m5", method='pbkdf2:sha256', salt_length=8)
 
