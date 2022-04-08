@@ -448,7 +448,7 @@ textarea:hover {
 
   .main-page-sec1 {
     margin-top: 300px;
-    padding-bottom: 250px;
+    padding-bottom: 150px;
   }
 
   .main-page-sec2 {
@@ -511,6 +511,7 @@ textarea:hover {
 
   .pi {
     width: 800px;
+    height: 2950px;
     margin: auto;
   }
 
@@ -542,7 +543,6 @@ textarea:hover {
 
   .footer-sec {
     width: 700px;
-    top: 2500px;
     font-size: 50px;
   }
 
@@ -552,25 +552,25 @@ textarea:hover {
 
   .about-cls {
     position: relative;
-    top: 2500px;
-    height: 3600px;
+    height: 3500px;
   }
 
   .contact-row {
     width: 600px;
     margin: auto;
-    top: 2500px;
     padding-top: 15px;
     text-align: center;
     padding-bottom: 30px;
   }
 
   .contact-form {
-    height: 950px;
+
+    height: 1750px;
   }
 
   .topBefore {
-    width: 600px;
+    padding-top: 500px;
+    width: 900px;
   }
 
 
@@ -614,6 +614,9 @@ textarea:hover {
 
   .marquee-sec {
     bottom: 0;
+    top: 300px;
+    height: 2400px;
+
   }
 
 
