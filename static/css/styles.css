@@ -485,11 +485,23 @@ textarea:hover {
   }
 
   .project-img {
-    width: 400px;
+    width: 800px;
+    height: 800px;
+  }
+
+  .project-title {
+    font-size: 65px;
+  }
+
+  .title-project-page {
+    padding-top: 200px;
+    font-size: 90px;
   }
 
   .project-list {
     text-align: center;
+    padding-top: 100px;
+    padding-bottom: 525px;
   }
 
   .make-project-form {
@@ -506,7 +518,8 @@ textarea:hover {
   }
 
   .music-box {
-    padding-top: 70px;
+    padding-top: 370px;
+    padding-bottom: 150px;
   }
 
   .pi {
