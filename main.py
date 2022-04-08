@@ -12,7 +12,7 @@ import os
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'shdgsahdgewqdshauwuiwssbxb')
 Bootstrap(app)
 
 
@@ -87,15 +87,13 @@ def contact():
             connection.login(user="shameemtest03@gmail.com", password="8086005565")
             connection.sendmail(from_addr=email,
                                 to_addrs="shameemtest03@gmail.com",
-                                msg=f"Name:{name}\n\n\nfrom:{email}\n\nMessage:{message}")
+                                msg=f"\n\n\nName:{name}\n\n\nfrom:{email}\n\nMessage:{message}")
 
     return render_template(template_name_or_list='contact.html')
 
 @app.route('/projects')
 def project():
     projects = Projects.query.all()
-    if projects == 0:
-        print('dfdfsa')
     return render_template(template_name_or_list='project.html', projects=projects, current_user=current_user)
 
 @app.route('/music')

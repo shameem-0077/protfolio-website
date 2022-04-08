@@ -41,7 +41,7 @@ body {
 
 .marquee-sec {
     position: relative;
-    margin-bottom: 30px;
+    padding-bottom: 200px;
 }
 
 
@@ -367,11 +367,11 @@ textarea:hover {
 .icons {
   text-align: center;
   font-size: 30px;
-  color: #F0A500;
+  color: white;
 }
 
 .icon-link {
-    color: #F0A500;
+    color: white;
 }
 
 .fb {
@@ -382,7 +382,7 @@ textarea:hover {
 .copy-right {
   padding-top: 10px;
   text-align: center;
-  color: #F0A500;
+  color: white;
 }
 
 /* projects */
@@ -393,6 +393,7 @@ textarea:hover {
 }
 
 .title-project-page {
+    padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -465,9 +466,6 @@ textarea:hover {
     padding-right: 10px;
   }
 
-  .about-reading-gif {
-    margin-right: 50px;
-  }
 
   .about-description {
     font-size: 40px;
@@ -529,29 +527,33 @@ textarea:hover {
   }
 
   .coding {
-    height: 700px;
+    height: 750px;
     width: 800px;
   }
 
   .reading {
-    height: 700px;
+    height: 750px;
     width: 800px;
     left: 0;
     top: 0;
   }
 
   .music {
-    height: 700px;
+    height: 750px;
     width: 800px;
     left: 0;
     top: 0;
   }
 
   .movies {
-    height: 700px;
+    height: 750px;
     width: 800px;
     left: 0;
     top: 0;
+  }
+
+  .about-gif-1, .about-gif-2, .about-gif-3, .about-gif-4 {
+    width: 300px;
   }
 
   .footer-sec {
@@ -565,7 +567,7 @@ textarea:hover {
 
   .about-cls {
     position: relative;
-    height: 3500px;
+    height: 3700px;
   }
 
   .contact-row {
@@ -628,7 +630,7 @@ textarea:hover {
   .marquee-sec {
     bottom: 0;
     top: 300px;
-    height: 2400px;
+    height: 2000px;
 
   }
 
